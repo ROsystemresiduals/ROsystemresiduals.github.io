@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+</head>
+
+
+
+
+<body style="background-color:#F0F0F0;">
+
+
+<p>The set of residuals for the RO system are as follows.</p>
+
+<p><img src="http://latex.codecogs.com/gif.latex?r_{RO1_1}: \\
+  \dot{\hat{q}}_{fp}=\frac{1}{I_{fp}}(-R_{fp}\hat{q}_{fp}- y_1+ u_1) \\
+  r_{RO1_1} = y_1 - \hat{q}_{fp}" border="0"/></p>
+
+
+
+<p><img src="http://latex.codecogs.com/gif.latex?r_{RO1_2}: \\
+      \dot{\hat{q}}_{rp} = \frac{1}{I_{rp}}  (- R_{rp}  - R_{forward})  \hat{q}_{rp}- y_2  + u_2  \\  
+      \dot{\hat{e}}_{Ck}= \frac{\hat{q}_{rp}}{C_k}(6 y_4 +0.1)/(1.667*10^{-8}) \\
+    r_{RO1_2} = y_5 - \hat{e}_{Ck}" border="0"/></p>
+
+
+<p><img src="http://latex.codecogs.com/gif.latex?r_{RO1_3}: \\
+       \hat{R}_{memb} =0.202 (4.137*10^{11}(\frac{y_5-12000}{165}+29)) \\
+            \hat{q}_{rp} = \frac{1.667*10^{-8}  C_k \dot{y}_{5}}{6 y_4 +0.1} \\
+      \dot{\hat{p}}_{memb} = \frac{1}{{C_{memb}}} (\hat{q}_{rp} - \frac{\hat{p}_{memb}}{ \hat{R}_{memb}}  -  \frac{\hat{p}_{memb}  - y_1}{R_{return_l}}    ) \\
+      r_{RO1_3} = y_2 -  \hat{p}_{memb}" border="0"/></p>
+
+
+
+<p><img src="http://latex.codecogs.com/gif.latex?r_{RO2_1}: \\
+  \dot{\hat{q}}_{fp}=\frac{1}{I_{fp}}(-R_{fp}\hat{q}_{fp}- y_1+ u_1) \\
+  r_{RO2_1} = y_1 - \hat{q}_{fp}" border="0"/></p>
+
+
+
+<p><img src="http://latex.codecogs.com/gif.latex?r_{RO2_2}: \\
+   \dot{\hat{q}}_{rp} = \frac{1}{I_{rp}}  (- R_{rp}  - R_{forward}) \hat{q}_{rp}- y_2  + u_2  \\  
+   \dot{\hat{e}}_{Ck}= \frac{\hat{q}_{rp}}{C_k}(6 y_4 +0.1)/(1.667*10^{-8}) \\
+   r_{RO2_2} = y_5 - \hat{e}_{Ck}" border="0"/></p>
+
+
+
+<p><img src="http://latex.codecogs.com/gif.latex? r_{RO2_3}: \\
+     \hat{R}_{memb} =0.202 (4.137*10^{11}(\frac{y_5-12000}{165}+29)) \\
+     \hat{q}_{rp} = \frac{1.667*10^{-8}  C_k \dot{y}_{5}}{6 y_4 +0.1} \\
+     \dot{\hat{p}}_{memb} = \frac{1}{{C_{memb}}} (\hat{q}_{rp} - \frac{\hat{p}_{memb}}{ \hat{R}_{memb}}  -  \frac{\hat{p}_{memb}  - y_1}{R_{return_s}}    ) \\
+     r_{RO2_3} = y_2 -  \hat{p}_{memb}" border="0"/></p>
+
+
+
+<p><img src="http://latex.codecogs.com/gif.latex? r_{RO3_1}: \\
+    \dot{\hat{q}}_{fp}=\frac{1}{I_{fp}}(-R_{fp}\hat{q}_{fp}- y_1+ u_1) \\
+    r_{RO3_1} = y_1 - \hat{q}_{fp}" border="0"/></p>
+
+<p><img src="http://latex.codecogs.com/gif.latex? r_{RO3_2}: \\
+      \hat{R}_{memb} =0.202 (4.137*10^{11}(\frac{y_5-12000}{165}+29)) \\
+       \hat{q}_{rp}  =  \frac{y_1-\hat{p}_{memb}}{R_{forward}} \\
+      \dot{\hat{p}}_{memb} = \frac{1}{{C_{memb}}} (\hat{q}_{rp} - \frac{\hat{p}_{memb}}{ \hat{R}_{memb}}  -  \frac{\hat{p}_{memb}  }{R_{return_{ASE}}}    ) \\
+      r_{RO3_2} = y_2 -  \hat{p}_{memb}" border="0"/></p>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
